@@ -7,14 +7,20 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1 class="titulo">🚀 Bienvenido a MipymeOlivera</h1>
+  <div class="des">
+    <h1 class="titulo">🚀 Bienvenido a MipymeOlivera</h1>
+    <h3>Recibe tu pedido en la puerta de tu casa</h3>
+    <br>
+    <p>Domicilió Gratis, desde 'Rancho' hasta 'Verde Sol'.</p>
+  </div>
+  
 
   <div class="content">
     <div class="productos">
       <div class="producto">
         <img src="LecheCondensada.jpg" alt="Leche Condensada" />
         <h3>Leche Condensada</h3>
-        <p class="precio">500 CUP</p>
+        <p class="precio">480 CUP</p>
         <button class="btn-comprar" data-producto="Leche Condensada">Comprar</button>
       </div>
 
@@ -24,25 +30,55 @@
         <p class="precio">50 CUP</p>
         <button class="btn-comprar" data-producto="Refresco">Comprar</button>
       </div>
+      <div class="producto">
+        <img src="Chocolatinas.jpg" alt="Chocolatinas" />
+        <h3>Chocolatinas</h3>
+        <p class="precio">40 CUP</p>
+        <button class="btn-comprar" data-producto="Chocolatinas">Comprar</button>
+      </div>
+      <div class="producto">
+        <img src="Chupa Chupa.jpg" alt="Chupa Chupa" />
+        <h3>Chupa Chupa</h3>
+        <p class="precio">50 CUP</p>
+        <button class="btn-comprar" data-producto="Chupa Chupa">Comprar</button>
+      </div>
+      <div class="producto">
+        <img src="Spaghettis.jpg" alt="Spaghettis" />
+        <h3>Spaghettis</h3>
+        <p class="precio">330 CUP</p>
+        <button class="btn-comprar" data-producto="Spaghettis">Comprar</button>
+      </div>
+      <div class="producto">
+        <img src="Sazón Gova.jpg" alt="Sazón Gova" />
+        <h3>Sazón Gova</h3>
+        <p class="precio">60 CUP</p>
+        <button class="btn-comprar" data-producto="Sazón Gova">Comprar</button>
+      </div>
+      <div class="producto">
+        <img src="Tuallitas Humedas.jpg" alt="Tuallitas Humedas" />
+        <h3>Tuallitas Humedas</h3>
+        <p class="precio">200 CUP</p>
+        <button class="btn-comprar" data-producto="Tuallitas Humedas">Comprar</button>
+      </div>
 
       <div class="producto">
         <img src="Azucar.jpg" alt="Azúcar" />
         <h3>Azúcar</h3>
         <p class="precio">650 CUP</p>
         <button class="btn-comprar" data-producto="Azúcar">Comprar</button>
-      </div>
+      </div>    
 
       <div class="producto">
         <img src="Cigarro.jpg" alt="Cigarro" />
         <h3>Cigarro</h3>
-        <p class="precio">400 CUP</p>
+        <p class="precio">300 CUP</p>
         <button class="btn-comprar" data-producto="Cigarro">Comprar</button>
       </div>
 
       <div class="producto">
         <img src="Gelatina.jpg" alt="Gelatina" />
         <h3>Gelatina</h3>
-        <p class="precio">100 CUP</p>
+        <p class="precio">300 CUP</p>
         <button class="btn-comprar" data-producto="Gelatina">Comprar</button>
       </div>
 
@@ -59,7 +95,9 @@
     <div class="modal-content">
       <h2>Completa tu pedido</h2>
       <label>Tu nombre:</label>
-      <input type="text" id="nombre" placeholder="Ej: Brandon" />
+      <input type="text" id="nombre" placeholder="Ej: Usuario" />
+      <label>Dirección:</label>
+      <input type="text" id="dirección" placeholder="Ej: PuebloNuevo">
       <label>Cantidad:</label>
       <input type="number" id="cantidad" placeholder="Ej: 2" min="1" />
       <div class="modal-buttons">

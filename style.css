@@ -31,7 +31,15 @@ body::before {
   from { transform: translate(0, 0); }
   to { transform: translate(-25%, -25%); }
 }
-
+.des {
+  text-align: center;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.5);
+  margin: 20px auto;
+  max-width: 1200px;
+  border-radius: 10px;
+  font-weight: bold;
+}
 .titulo {
   text-align: center;
   padding: 15px;
@@ -167,6 +175,9 @@ body::before {
 
 @media (max-width: 768px) {
   .titulo {
+    font-size: 1.2rem;
+  }
+  .des{
     font-size: 1.2rem;
   }
 }
